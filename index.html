@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orizon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- navbar starts -->
+    <header>
+        <div class="nav-bar">
+            <div class="nav-logo borderDisplay">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address borderDisplay">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select name="categoryList" id="categoryItems">
+                    <option value="All">All</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Baby">Baby</option>
+                    <option value="Books">Books</option>
+                    <option value="Electronics">Electronics</option>
+                </select>
+                <input class="search-input" type="search" placeholder="Search Orizon" aria-label="Search">                
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>  
+            </div>
+            <div class="nav-signin borderDisplay">
+                <p class="signin-first">Hello, sign in</p>
+                <div class="dropdown-icon">
+                    <p class="signin-second">Accounts & Lists</p>
+                    <i id="dropdown-icon" class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+            <div class="nav-returns borderDisplay">
+                <p class="returns">Returns</p>
+                <p class="orders">& Orders</p>
+            </div>
+            <div class="cart borderDisplay">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <p class="cart">Cart</p>
+            </div>
+        </div>
+    </header>
+    <!-- navbar ends -->
+    <!-- slide show starts -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/school amazon.jpg" class="d-block w-100" alt="school essentials pic">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/beauty amazon.jpg" class="d-block w-100" alt="beauty products pic">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/books amazon.jpg" class="d-block w-100" alt="books pic">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/Kitchen amazon.jpg" class="d-block w-100" alt="kitchen essentials pic">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <div class="carousel-left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <div class="carousel-right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </button>
+        <div class="carouselUnderPara">
+            <p>You are on Orizon.com. You can also shop on Orizon India for millions of products with fast local delivery.<a href="#"> Click here to go to Orizon.in</a> </p>
+        </div>
+        <div class="card-one">
+          <a href="Baby.html">
+            <div class="card">
+              <h2 class="card-head">Baby Toys</h2>
+              <img src="/images/amazon_BabyToyscard.jpg" class="card-img-top" alt="Toys pic">
+              <div class="card-body">
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </a>
+          <a href="Electronics.html">
+            <div class="card">
+              <h2 class="card-head">Electronics</h2>
+              <img src="/images/amazon_Electronicscard.jpg" class="card-img-top" alt="Electronics pic">
+              <div class="card-body">
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </a>
+          <a href="SchoolEssentials.html">
+            <div class="card">
+              <h2 class="card-head">Shop School Essentials</h2>
+              <img src="/images/amazon school.jpg" class="card-img-top" alt="school ess pic">
+              <div class="card-body">
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </a>
+          <a href="Beautypicks.html">
+            <div class="card">
+              <h2 class="card-head">Beauty Picks</h2>
+              <img src="/images/amazon beauty card.jpg" class="card-img-top" alt="beauty pic">
+              <div class="card-body">
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </a>             
+        </div>
+    </div>
+    <!-- slide show ends -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
