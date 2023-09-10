@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orizon/BabyToys</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="baby.css">
+</head>
+
+<body>
+    <!-- navbar starts -->
+    <header>
+        <div class="nav-bar">
+            <div class="nav-logo borderDisplay">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address borderDisplay">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select name="categoryList" id="categoryItems">
+                    <option value="All">All</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Baby">Baby</option>
+                    <option value="Books">Books</option>
+                    <option value="Electronics">Electronics</option>
+                </select>
+                <input class="search-input" type="search" placeholder="Search Orizon" aria-label="Search">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-signin borderDisplay">
+                <p class="signin-first">Hello, sign in</p>
+                <div class="dropdown-icon">
+                    <p class="signin-second">Accounts & Lists</p>
+                    <i id="dropdown-icon" class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+            <div class="nav-returns borderDisplay">
+                <p class="returns">Returns</p>
+                <p class="orders">& Orders</p>
+            </div>
+            <div class="cart borderDisplay">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <p class="cart">Cart</p>
+            </div>
+        </div>
+    </header>
+    <!-- navbar ends -->
+    <nav class="sidenavbar">
+        <h3 class="dept-head">Department</h3>
+        <h4 class="dept-headsec">School Essentials</h4>
+        <ul class="toysList" style="list-style-type: none;">
+            <li class="listoftoys"></li>
+            <li class="listoftoys">Office & School Supplies</li>
+            <li class="listoftoys">Building Toys</li>
+            <li class="listoftoys">Notebooks & Writing Pads</li>
+            <li class="listoftoys">Pencils & Accessories</li>
+            <li class="listoftoys">Arts & Crafts Supplies</li>
+            <li class="listoftoys">Games & Accessories</li>
+            <li class="listoftoys">Markers & Highlighters</li>
+            <li class="listoftoys">Learning & Education Toys</li>
+            <li class="listoftoys">Novelty Toys & Amusements</li>
+            <li class="listoftoys">Desk Supplies Holders</li>
+            <li class="listoftoys">Dispensers</li>
+            <li class="listoftoys">Puzzles</li>
+            <li class="listoftoys">Rollerball Pens</li>
+            <li class="listoftoys">Sports & Outdoor Play Toys</li>
+            <li class="listoftoys">Craft Adhesives</li>
+            <li class="listoftoys">Toy Figures & Playsets</li>
+            <li class="listoftoys">Tricycles, Scooters & Wagons</li>
+            <li class="listoftoys">Craft Cutting Tools</li>
+        </ul>
+        <h3 class="dept-head">Featured Characters & Brands</h3>
+        <ul class="toyslist-sec" style="list-style-type: none;">
+            <li class="listoftoys-sec">BIC</li>
+            <li class="listoftoys-sec">SHARPIE</li>
+            <li class="listoftoys-sec">Elmer's</li>
+            <li class="listoftoys-sec">Crayola</li>
+            <li class="listoftoys-sec">Five Star</li>
+            <li class="listoftoys-sec">Oxford</li>
+            <li class="listoftoys-sec">Paper Mate</li>
+            <li class="listoftoys-sec">Ticonderoga/li>
+            <li class="listoftoys-sec">Mead</li>
+            <li class="listoftoys-sec">Zebra Pen</li>
+            <li class="listoftoys-sec">Orizon Basics</li>
+            <li class="listoftoys-sec">EXPO</li>
+            <li class="listoftoys-sec">Mr. Pen</li>
+            <li class="listoftoys-sec">Bostitch</li>
+            <li class="listoftoys-sec">Phomemo</li>
+            <li class="listoftoys-sec">Scotch</li>
+            <li class="listoftoys-sec">Post-it</li>
+            <li class="listoftoys-sec">Uni-ball</li>
+            <li class="listoftoys-sec">BAZIC Products</li>
+            <li class="listoftoys-sec">Four Candies</li>
+            <li class="listoftoys-sec">EOOUT</li>
+            <li class="listoftoys-sec">Rocketbook</li>
+            <li class="listoftoys-sec">Shuttle Art</li>
+            <li class="listoftoys-sec">Dunwell</li>
+            <li class="listoftoys-sec">Outus</li>
+            <li class="listoftoys-sec">Yansanido</li>
+            <li class="listoftoys-sec">iBayam</li>
+            <li class="listoftoys-sec">Regolden-Book</li>
+            <li class="listoftoys-sec">DIVERSEBEE</li>
+            <li class="listoftoys-sec">SUNEE</li>
+            <li class="listoftoys-sec">HVOMO
+            </li>
+            <li class="listoftoys-sec">UIXJODO</li>
+            <li class="listoftoys-sec">Enday</li>
+            <li class="listoftoys-sec">AFMAT</li>
+            <li class="listoftoys-sec">Rosmonde</li>
+            <li class="listoftoys-sec">Drawdart</li>
+            <li class="listoftoys-sec">Della Gao</li>
+            <li class="listoftoys-sec">Prudiut</li>
+            <li class="listoftoys-sec">Tops</li>
+            <li class="listoftoys-sec">Sonuimy</li>
+        </ul>
+
+    </nav>
+    <main class="main-doc">
+        <h2 class="head-second">Results</h2>
+        <p class="caption-second">Price and other details may vary based on product size and color.</p>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col m-3">
+                <img src="/images/toys1.jpeg" class="card-img-top" alt="Toys pic">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id sint non! Voluptas praesentium
+                        sapiente aliquam perspiciatis dolorum.</p><br>
+                    <p>Rs.<span>129</span></p>
+                </div>
+              </div>
+              <div class="col m-3">
+                <img src="/images/toys2.jpeg" class="card-img-top" alt="Toys pic">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id sint non! Voluptas praesentium
+                        sapiente aliquam perspiciatis dolorum.</p><br>
+                    <p>Rs.<span>150</span></p>
+                </div>
+              </div>
+              <div class="col m-3">
+                <img src="/images/toys3.jpeg" class="card-img-top" alt="Toys pic">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id sint non! Voluptas praesentium
+                        sapiente aliquam perspiciatis dolorum.</p><br>
+                    <p>Rs.<span>440</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col m-3">
+                  <img src="/images/toys4.jpeg" class="card-img-top" alt="Toys pic">
+                  <div class="card-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id sint non! Voluptas praesentium
+                          sapiente aliquam perspiciatis dolorum.</p><br>
+                      <p>Rs.<span>589</span></p>
+                  </div>
+                </div>
+                <div class="col m-3">
+                  <img src="/images/toys5.jpeg" class="card-img-top" alt="Toys pic">
+                  <div class="card-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id sint non! Voluptas praesentium
+                          sapiente aliquam perspiciatis dolorum.</p><br>
+                      <p>Rs.<span>889</span></p>
+                  </div>
+                </div>
+                <div class="col m-3">
+                  <img src="/images/toys6.jpeg" class="card-img-top" alt="Toys pic">
+                  <div class="card-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id sint non! Voluptas praesentium
+                          sapiente aliquam perspiciatis dolorum.</p><br>
+                      <p>Rs.<span>189</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m-3">
+                  <img src="/images/toys7.jpeg" class="card-img-top" alt="Toys pic">
+                  <div class="card-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id sint non! Voluptas praesentium
+                          sapiente aliquam perspiciatis dolorum.</p><br>
+                      <p>Rs.<span>569</span></p>
+                  </div>
+                </div>
+                <div class="col m-3">
+                  <img src="/images/toys8.jpeg" class="card-img-top" alt="Toys pic">
+                  <div class="card-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id sint non! Voluptas praesentium
+                          sapiente aliquam perspiciatis dolorum.</p><br>
+                      <p>Rs.<span>891</span></p>
+                  </div>
+                </div>
+                <div class="col m-3">
+                  <img src="/images/toys9.jpeg" class="card-img-top" alt="Toys pic">
+                  <div class="card-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id sint non! Voluptas praesentium
+                          sapiente aliquam perspiciatis dolorum.</p><br>
+                      <p>Rs.<span>89</span></p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+        
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
